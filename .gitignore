@@ -1,0 +1,25 @@
+# Raw and processed data files (keep only data dictionary CSV)
+RawData/*.csv
+!RawData/DescriptionDataCoSupplyChain.csv
+*.parquet
+*.zip
+*.db
+*.sqlite
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
